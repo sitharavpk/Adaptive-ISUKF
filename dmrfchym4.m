@@ -1,0 +1,24 @@
+function [Phi, var] = dmrfchym4(px, Q, gma)
+px1 = px(1);
+px2 = px(2);
+px3 = px(3);
+px4 = px(4);
+sig = 3*Q;
+
+sigq = 15*sig;
+igmaxsig = 1/(gma*sig);
+k1 = (px1+px2+px3+px4)/4;
+R = 100;
+alfa = 30;
+alfasquare= alfa*alfa;
+  rn = rand(1,R);
+  chy =  alfa*tan(pi*(rn-.5));
+sam = k1 + chy;
+eta = (sam-px1).*(sam-px1)+(sam-px2).*(sam-px2)+(sam-px3).*(sam-px3)+(sam-px4).*(sam-px4);
+dmsam = (chy).*(chy)+alfasquare;
+pp = exp(-gma*log(1+eta*igmaxsig));
+w = pp.*dmsam;
+cw = sum(w);
+Phi = (sam*w')/cw;
+phi = Phi*ones(1,R);
+var = sum(w.*(sam-phi).^2)/cw;
