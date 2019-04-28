@@ -40,6 +40,5 @@ External codes
     Processing, vol. 20, no. 8, pp. 2378-2386, 2011.
 
     
-### Disclaimer: The assessment metric values in the paper are the best results for the ideal cases. 
-It may change at every execution.
+### Disclaimer: The assessment metric values in the paper are the best results for the ideal cases. It may change at every execution.
 
