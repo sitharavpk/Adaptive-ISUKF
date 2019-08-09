@@ -46,6 +46,7 @@ Kanakaraj, Sithara, Madhu S. Nair, and Saidalavi Kalady. "Adaptive Importance Sa
 
 Please cite our paper if you find the software useful for your work.
 
+```
 @article{kanakaraj2019adaptive,
   title={Adaptive Importance Sampling Unscented Kalman Filter based SAR image super resolution},
   author={Kanakaraj, Sithara and Nair, Madhu S and Kalady, Saidalavi},
@@ -54,6 +55,6 @@ Please cite our paper if you find the software useful for your work.
   year={2019},
   publisher={Elsevier}
 }
-    
+```    
 Disclaimer: The assessment metric values in the paper are the best results for the ideal cases. It may change at every execution.
 
