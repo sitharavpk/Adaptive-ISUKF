@@ -8,21 +8,21 @@ Authors: Sithara Kanakaraj, Madhu S. Nair and Saidalavi Kalady
 
 To run the code, please use the main function Adaptive_ISUKF.m.
 
-Input:
+## Input:
     The test images are present in the data folder. Each folder consists of 
     synthetic and real SAR images. Each input LR image consists 16 low-resolution images. 
     
-    Format:
+   Format:
          - filePath: the file name of the input 
             Example:    filePath = 'data\synthetic\synthetic1.mat';
 
-Output:
+## Output:
     A high-resolution image magnified to a factor of 2 is presented as the output along 
     with the values of quality assessment metrics.
 
         - HR: the super-resolved image
 
-External codes
+## External codes
 
     1. For Image Registration: Manuel Guizar-Sicairos, Samuel T. Thurman, and James R. Fienup, 
     "Efficient subpixel image registration algorithms," Opt. Lett. 33, 156-158 (2008).
@@ -39,6 +39,21 @@ External codes
     "FSIM: a feature similarity index for image qualtiy assessment", IEEE Transactions on Image 
     Processing, vol. 20, no. 8, pp. 2378-2386, 2011.
 
+## Citation
+This code is the Matlab implementation of the paper
+
+Kanakaraj, Sithara, Madhu S. Nair, and Saidalavi Kalady. "Adaptive Importance Sampling Unscented Kalman Filter based SAR image super resolution." Computers & Geosciences (2019): 104310.
+
+Please cite our paper if you find the software useful for your work.
+
+@article{kanakaraj2019adaptive,
+  title={Adaptive Importance Sampling Unscented Kalman Filter based SAR image super resolution},
+  author={Kanakaraj, Sithara and Nair, Madhu S and Kalady, Saidalavi},
+  journal={Computers \& Geosciences},
+  pages={104310},
+  year={2019},
+  publisher={Elsevier}
+}
     
 Disclaimer: The assessment metric values in the paper are the best results for the ideal cases. It may change at every execution.
 
