@@ -7,9 +7,9 @@ and super-resolves to a single high-resolution frame from multiple low-resolutio
 Authors: Sithara Kanakaraj, Madhu S. Nair and Saidalavi Kalady
 
 This code is the Matlab implementation of the paper
-```
+
 Kanakaraj, Sithara, Madhu S. Nair, and Saidalavi Kalady. "Adaptive Importance Sampling Unscented Kalman Filter based SAR image super resolution." Computers & Geosciences (2019): 104310.
-```
+
 To run the code, please use the main function Adaptive_ISUKF.m.
 
 ## Input:
