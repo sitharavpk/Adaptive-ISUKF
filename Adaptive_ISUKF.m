@@ -7,6 +7,13 @@
 
 % =====================================================================================
 
+% 
+% This code is the Matlab implementation of the paper:
+% ----------------------------------------------------
+% Kanakaraj, Sithara, Madhu S. Nair, and Saidalavi Kalady. "Adaptive Importance Sampling 
+% Unscented Kalman Filter based SAR image super resolution." Computers & Geosciences (2019): 104310.
+%
+% If you find the code useful please consider citing us.
 %
 % Input:
 %     - filePath: the file name of the input containing 16 low-resolution
